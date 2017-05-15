@@ -98,11 +98,11 @@
 // console.log(total);
 
 // 10.
-var values = [8, 5, 3, 10, 14, 2];
-for (let value of values) {
-  if (value === 10) {
-    console.log('Special case!');
-  } else {
-    console.log('Regular values like ' + value);
-  }
-}
+// var values = [8, 5, 3, 10, 14, 2];
+// for (let value of values) {
+//   if (value === 10) {
+//     console.log('Special case!');
+//   } else {
+//     console.log('Regular values like ' + value);
+//   }
+// }
