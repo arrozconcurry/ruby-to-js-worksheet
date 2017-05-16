@@ -51,6 +51,7 @@ output(['potato', 'gravy', 'turkey']);
 var zombies = function() {
   return "We like to eat people";
 };
+/**/
 
 // 2.
 var Calculator = function() {
@@ -59,6 +60,7 @@ var Calculator = function() {
   };
 };
 var my_calculator = new Calculator();
+/* */
 
 // 3.
 console.log(function () {
@@ -70,7 +72,7 @@ console.log(function () {
  If `}` w/o the `()` output is [Function]
  If a named function, JS would have given us
  [name] instead of [Function].
- Difference between a function object vs. calling a function 
+ Difference between a function object vs. calling a function
  and working with return value.
  Quickly identify which one you're working with
 */
@@ -78,5 +80,20 @@ console.log(function () {
 // 4.
 var blabbermouth = function() { };
 console.log(blabbermouth.name);
+/**/
 
 // 5.
+/* 2 & 5 are talking about objects.
+Instead of defining a class. Making a function
+That creates out object. Should return
+the properties we want*/
+var Square = function (sideLength) {
+  return {
+    sideLength: sideLength,
+    area: function() {
+      return this.sideLength * this.sideLength;
+    }
+  };
+};
+mysq = Square(4);
+console.log(mysq.area());
