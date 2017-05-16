@@ -95,5 +95,5 @@ var Square = function (sideLength) {
     }
   };
 };
-mysq = Square(4);
+var mysq = Square(4);
 console.log(mysq.area());
