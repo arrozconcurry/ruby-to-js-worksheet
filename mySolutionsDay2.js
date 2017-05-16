@@ -92,7 +92,8 @@ var Square = function (sideLength) {
     sideLength: sideLength,
     area: function() {
       return this.sideLength * this.sideLength;
-    }
+    },
+    // other_property: 17; Dan had this like but lots of linter errors
   };
 };
 var mysq = Square(4);
