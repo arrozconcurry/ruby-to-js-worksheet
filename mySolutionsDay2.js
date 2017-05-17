@@ -51,7 +51,10 @@ output(['potato', 'gravy', 'turkey']);
 var zombies = function() {
   return "We like to eat people";
 };
-/**/
+/* Similar to part 1 problem 1
+instead of printing to the console
+the program returns this string and
+the program stops running*/
 
 // 2.
 var Calculator = function() {
@@ -60,7 +63,10 @@ var Calculator = function() {
   };
 };
 var my_calculator = new Calculator();
-/* */
+/* This creates a new object, and
+applies the Calculator function
+constructor. The returned value is
+a function */
 
 // 3.
 console.log(function () {
@@ -80,7 +86,7 @@ console.log(function () {
 // 4.
 var blabbermouth = function() { };
 console.log(blabbermouth.name);
-/**/
+/* returns the name of the function*/
 
 // 5.
 /* 2 & 5 are talking about objects.
